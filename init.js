@@ -41,9 +41,9 @@ db.Users.deleteMany({})
 db.Users.insertOne(
     {
         _id: userId,
-        email: "test@featbit.com",
+        email: "admin@domain.com",
         password: "AQAAAAEAACcQAAAAELDHEjCrDQrmnAXU5C//mOLvUBJ7lnVFEMMFxNMDIIrF7xK8JDQKUifU3HH4gexNAQ==",
-        name: "tester",
+        name: "railway",
         origin: "Local",
         workspaceId: workspaceId,
         createAt: new Date(),
